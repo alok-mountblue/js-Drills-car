@@ -1,4 +1,4 @@
-export let problem1=(inventory,n)=>{
+export let problem1=function problem1(inventory,n){
 
     for(let i =0;i<inventory.length;i++){
 
