@@ -4,5 +4,5 @@
 import {inventory} from "../array.js";
 import {problem3} from "../problem3.js";
 
-var result=problem3(inventory)
+var result=problem3(inventory);
 console.log(result);

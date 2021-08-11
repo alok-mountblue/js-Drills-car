@@ -1,9 +1,9 @@
 
-export let problem3=function problem3(inventory){
+export function problem3(inventory){
 
    if(inventory.length==0){
       return inventory;
-   }else{
+   }
 
    let carModels=[];
    for (let i = 0; i < inventory.length; i++) 
@@ -25,5 +25,4 @@ export let problem3=function problem3(inventory){
    }
 
    return carModels;
-}
 }
