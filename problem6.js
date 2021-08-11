@@ -4,10 +4,12 @@
 export let problem6 = function problem6(inventory){
 
     let BmwAndAudi=[];
+    let j=0;
     for (let i = 0; i < inventory.length; i++) {
 
         if (inventory[i].car_make === 'Audi' || inventory[i].car_make === 'BMW') {
-            BmwAndAudi.push(inventory[i]);
+            BmwAndAudi[j]=inventory[i];
+            j++;
         }
     }
     

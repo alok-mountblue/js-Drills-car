@@ -4,6 +4,7 @@
 export let problem5=function problem5(inventory){
 let oldCars=[];
 let j=0;
+
 for(let i=0;i < inventory.length;i++){
     if (inventory[i].car_year < 2000) {
         oldCars[j]=inventory[i];
@@ -11,6 +12,6 @@ for(let i=0;i < inventory.length;i++){
       }
 
 }
-return oldCars;
+return [oldCars,j];
    
 }
