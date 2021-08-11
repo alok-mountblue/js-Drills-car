@@ -3,6 +3,10 @@
 
 export let problem6 = function problem6(inventory){
 
+    if(inventory.length==0){
+        return inventory;
+    }else{
+
     let BmwAndAudi=[];
     let j=0;
     for (let i = 0; i < inventory.length; i++) {
@@ -14,6 +18,6 @@ export let problem6 = function problem6(inventory){
     }
     
     return BmwAndAudi;
-        
+}     
    
 }
